@@ -1,0 +1,71 @@
+<div class="container">
+  <h4>Cadastro dos horários de acionamentos automático</h4>
+  <!-- Linha 1 -->
+  <div class="row">
+      <div class="col-md-3">
+          <div class="form-group">
+              <label for="dayOfWeek">Dia da semana:</label>
+              <select class="form-control" id="dayOfWeek">
+                  <option value="0">Domingo</option>
+                  <option value="1">Segunda-feira</option>
+                  <option value="2">Terça-feira</option>
+                  <option value="3">Quarta-feira</option>
+                  <option value="4">Quinta-feira</option>
+                  <option value="5">Sexta-feira</option>
+                  <option value="6">Sábado</option>
+              </select>
+          </div>
+      </div>
+      <div class="col-md-3">
+          <div class="form-group">
+              <label for="numTomada">Nun. Tomada:</label>
+              <select class="form-control" id="numTomada">
+                  <option value="1">Tomada 1</option>
+                  <option value="2">Tomada 2</option>
+                  <option value="3">Tomada 3</option>
+                  <option value="4">Tomada 4</option>
+              </select>
+          </div>
+      </div>
+      <div class="col-md-3">
+          <div class="form-group">
+              <label for="numSchedule">Nun. Agendam:</label>
+              <select class="form-control" id="numSchedule">
+                  <option value="1">Agendamento 1</option>
+                  <option value="2">Agendamento 2</option>
+                  <option value="3">Agendamento 3</option>
+              </select>
+          </div>
+      </div>
+      <div class="col-md-3">
+          <div class="form-group">
+              <label for="hourOn">Hora de ligar:</label>
+              <input class="form-control" type="number" id="hourOn" min="0" max="23" required>
+          </div>
+      </div>
+  </div>
+  <!-- Linha 2 -->
+  <div class="row">
+      <div class="col-md-3">
+          <div class="form-group">
+              <label for="minuteOn">Minuto de ligar:</label>
+              <input class="form-control" type="number" id="minuteOn" min="0" max="59" required>
+          </div>
+      </div>
+      <div class="col-md-3">
+          <div class="form-group">
+              <label for="hourOff">Hora de desligar:</label>
+              <input class="form-control" type="number" id="hourOff" min="0" max="23" required>
+          </div>
+      </div>
+      <div class="col-md-3">
+          <div class="form-group">
+              <label for="minuteOff">Minuto de desligar:</label>
+              <input class="form-control" type="number" id="minuteOff" min="0" max="59" required>
+          </div>
+      </div>
+      <div class="col-md-3">
+          <button id="cadastrarHorarioBtn" class="btn btn-primary mt-4" type="button">Cadastrar Horário</button>
+      </div>
+  </div>
+</div>

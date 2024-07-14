@@ -1,0 +1,33 @@
+table {
+    width: 95%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+th {
+    background-color: #f2f2f2;
+}
+.pagination {
+    margin-top: 20px;
+}
+
+body {
+    min-height: 100vh; /* Definir altura mínima do corpo como 100% da altura visível da janela */
+    margin: 0; /* Remover margens padrão */
+    display: flex; /* Utilizar flexDirection row por padrão */
+    flex-direction: column; /* Acomodar itens de cima para baixo */
+  }
+
+  footer {
+    flex-shrink: 0; /* Evitar que o footer seja reduzido para acomodar o espaço restante */
+    width: 90%; /* Definir a largura do footer como 95% */
+    margin-left: auto; /* Alinhar o footer à direita */
+    margin-right: auto; /* Alinhar o footer à esquerda */
+    background-color: #343a40; /* Cor de fundo escura */
+    color: #ffffff; /* Texto em cor clara */
+    padding: 20px; /* Espaço interno */
+    margin-top: 20px; /* Fixar o footer na parte inferior da janela */
+    margin-bottom: 20px;
+  }
